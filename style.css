@@ -1,0 +1,183 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+}
+
+/* Header and Navigation styles */
+header {
+    background-color: #800080; /* Changed to purple */
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+nav {
+    background-color: #333;
+    overflow: hidden;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 14px 20px;
+    display: block;
+}
+
+nav ul li a:hover {
+    background-color: #ff69b4; /* Changed hover effect to pink */
+}
+
+h1 {
+    margin: 0;
+}
+
+/* Home Section */
+.home {
+    background-image: url('https://img.freepik.com/premium-photo/abstract-colorful-glittering-background-with-professional-makeup-products-generation-ai_88188-3463.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 80px;
+    text-align: center;
+    color: white;
+}
+
+.home h2 {
+    font-size: 36px;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+}
+
+.home p {
+    font-size: 18px;
+    margin: 20px 0;
+}
+
+.home-image {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 10px;
+    margin: 20px 0;
+}
+
+/* Products Section */
+.products {
+    background-image: url('https://www.shutterstock.com/image-photo/makeup-products-cosmetic-bag-on-260nw-659122204.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 40px;
+    color: white;
+}
+
+.products h2 {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 30px;
+    color: #333;
+}
+
+.product {
+    background-color: rgba(255, 255, 255, 0.9);
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    margin: 15px;
+    padding: 15px;
+    width: 300px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.product img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.product h3 {
+    color: #800080; /* Changed to purple */
+    margin-bottom: 10px;
+}
+
+.product p {
+    color: #555;
+}
+
+button {
+    background-color: #ffb6c1; /* Changed to baby pink */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #ff69b4; /* Pink for hover effect */
+}
+
+/* Offers Section */
+.offers {
+    background-image: url('https://img.freepik.com/premium-photo/poster-makeup-products-with-background-big-sale-beauty-center-makeup-salon-banner-post_618890-2504.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 40px;
+    text-align: center;
+    color: white;
+}
+
+.offers h2 {
+    font-size: 30px;
+}
+
+.offer-image {
+    width: 100%;
+    max-width: 500px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+/* About Us Section */
+.about {
+    background-image: url('https://st5.depositphotos.com/35914836/63547/i/450/depositphotos_635479512-stock-photo-brown-wooden-wall-texture-background.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 40px;
+    color: white;
+}
+
+.about h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.about p {
+    margin: 10px 0;
+    font-size: 18px;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
